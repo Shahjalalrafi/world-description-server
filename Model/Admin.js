@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 
 const adminSchema = mongoose.Schema({
-    emai: {
+    email: {
         type: String,
         trim: true,
         requird: true
